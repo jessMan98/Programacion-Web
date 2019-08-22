@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+ <html lang="es">
+  
+  <head>
+	<title></title>
+  </head>
+
+  <body>
+    <section>
+     <form  action="form.html" name="formulario" method="post">
+      
+      <h1>Formulario</h1> 
+      
+      <fieldset>
+       <legend><strong>Metas a corto y Mediano Plazo</strong></legend>
+       
+        <table>
+         <tr>
+          <td>	
+      		<label for="meta"> Meta </label> 
+      		<input type="text" name="meta" id="meta" size="33">
+          </td>
+         </tr>
+        
+         <tr>
+          <td>
+      		<label for="descripcion"> Descripcion </label><br>
+        	<textarea name="descripcion" id="descripcion" rows="8" cols="40"> </textarea>
+          </td>
+         </tr>
+        
+         <tr>
+          <td>
+        	<label for="plazo">Plazo</label> 
+         	  <select name="plazo" id="plazo">  
+        		<option value="1"> 1 año </option>
+            	<option value="3"> 3 años</option>
+            	<option value="5"> 5 años</option>
+            	<option value="10"> 10 años</option>
+              </select>
+          </td> 
+         </tr>  
+        
+         <tr> 
+          <td>
+            <label for="rdio">Indispensable</label>
+            <input type="radio" name="uno" id="rdio" value="true">
+
+            <label for="rdio2">Puedo vivir si ello</label>
+            <input type="radio" name="uno" id="rdio2" value="false">
+          
+          </td>
+         </tr>
+
+         <tr>
+          <td>
+         	<p>Puedo Realizarlo:</p>
+
+            <label for="box1"> Antes </label>
+            <input type="checkbox" name="antes" id="box1" value="antes">
+
+            <label for="box2"> Durante </label>	
+            <input type="checkbox" name="durante" id="box2" value="durante">
+
+            <label for="box3"> Despues de la carrera </label>
+            <input type="checkbox" name="despues" id="box3" value="despues">
+          </td>	
+         </tr>
+        
+         <tr>
+          <td>
+         	<input type="hidden" name="invisible" value="3311">
+          </td>	
+         </tr>
+
+         <tr>
+          <td>
+         	<input type="submit"  value="Crear Meta">
+          </td>	
+         </tr>
+
+        </table>
+       </fieldset>
+
+     </form>
+
+    </section>   
+
+  </body>
+
+</html>
