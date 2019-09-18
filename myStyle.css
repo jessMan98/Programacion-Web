@@ -1,0 +1,254 @@
+html{
+   margin: 0;
+   padding: 0
+}
+
+/*Color de fondo body*/
+body{
+   background-color: rgb(171, 202, 182); 
+}
+
+p{
+  border: ridge rgb(70, 159, 216); 
+  margin: 20px 30px 10px 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*estilo parrafo descipcion imagen*/
+#pImg{
+  border: ridge rgb(70, 159, 216); 
+  margin: 340px 30px 10px 30px;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+/*Contenido principal*/
+.principal{
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+/*Estilo de titulo*/
+.titulo{
+  color: rgb(255, 77, 0);
+  font-size: 30pt;
+  border: 5px dashed #20bcd5;
+  padding: 10px; 
+  margin: 5px 400px 5px 400px;   /*margin: top,right,bottom,left*/
+}
+
+/*estilo de bloque acerca de mi*/
+#aboutMe{
+  background-color: #fff; 
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+/*estilo titulo objetivos / empleos*/
+h2.new{
+  color: rgb(255, 77, 0);
+  font-size: 28pt;
+  text-align: center;
+  border: 5px dashed #20bcd5;
+  padding: 10px; 
+  margin: 5px 130px 5px 130px; 
+}
+
+/*estilo imagenes de objetivos*/
+
+.img13{
+  float: left;
+  margin: 15px 10px 10px 10px;
+  border: 5px solid DodgerBlue;
+  border-radius: 5px;
+}
+
+.img24{
+  float: right;
+  margin: 15px 10px 10px 10px;
+  border: 5px solid DodgerBlue ;
+  border-radius: 5px;
+}
+
+/*estilo de bloque objetivos*/
+#objectives{
+  background-color:#fff; 
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px 330px 20px 330px;
+}
+
+/*estilo de bloque para empleos/academica*/
+#employes{
+  background-color:#fff; 
+  padding: 10px;
+  border-radius: 15px;
+  margin: 20px 330px 20px 330px;
+}
+
+/*estilo de bloque para persona que admiras*/
+#admire{
+  background-color:#fff; 
+  padding: 10px;
+  border-radius: 15px;
+  margin: 5px 50px 20px 50px;
+  height: 520px;
+  width: 650px;
+  float: right;
+}
+
+/*estilo titulo persona que admiras*/
+.nope{
+  color: rgb(255, 77, 0);
+  font-size: 30pt;
+  text-align: center;
+  border: 5px dashed #20bcd5;
+  padding: 10px; 
+  margin: 5px 5px 5px 5px; 
+}
+
+/*Imagen*/
+#image{
+   float: right;
+   margin: 5px 175px;
+   border: 5px solid rgb(63, 146, 162);
+   border-radius: 5px;
+}
+
+/*quita el subrayado del link*/
+a:link{ 
+ text-decoration: none ;
+ font-size: 25px;
+}
+
+/*cambia de color al pasar el mouse*/
+a:hover{
+  color: red;
+}
+
+/*estilo titulo temas de interes*/
+h2.nope{
+  color: rgb(255, 77, 0);
+  font-size: 28pt;
+  text-align: center;
+  border: 5px dashed #20bcd5;
+  padding: 10px; 
+  margin: 5px 5px 5px 5px; 
+}
+
+/*estilo bloque temas de interes*/
+#interest{
+  background-color:#fff; 
+  padding: 10px;
+  border-radius: 15px;
+  margin: 27px 50px 20px 50px;
+  height: 520px;
+  width: 520px;
+}
+
+/*estilo tabla*/
+table{
+ border:2px solid black;
+ border-collapse: collapse;
+  text-align: center;
+  padding: 20px;
+  margin: 50px 50px 10px 60px;
+  width: 80%;
+  height: 60%;
+  background-color: rgb(163, 255, 212); 
+}
+
+/*estilo tablehead*/
+th{
+  border:2px solid #cecece;
+  background-color: rgb(126, 241, 138);
+  text-align: center; 
+}
+
+tr{
+  border:5px solid #cecece;
+}
+
+/*estilo li*/
+li{
+	text-align: center; 
+}
+
+/*estilo ol*/
+#orderL{
+	text-align: left;
+    margin-left: 100px;
+}  
+
+/*Estilo Formulario*/
+
+div{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 50px 80px 10px 80px;
+}
+
+h1{
+   font-size: 30pt;
+   color: rgb(255, 77, 0) ;
+   text-align: center;
+   padding: 10px;
+}
+
+h1 span{
+	border: 4px dashed #20bcd5;
+    padding: 10px;
+} 
+
+#block{
+ background-color: #f2f2f2;
+ border: 3px solid #ccc;
+ border-radius: 10px;
+ padding: 30px 20px 30px 30px;
+ margin: 10px 250px 10px 320px;
+ width: 450px;
+}
+
+label{
+   font-size: 20px;
+  
+}
+
+input[type=text]{
+   width: 95%;
+   padding: 5px;
+   margin: 8px 0;
+}
+
+textarea{
+   width: 95%;
+   padding: 5px;
+   margin: 8px 0;
+   resize: none;
+}
+
+#plazo{
+  width: 100px;
+  height: 30px;
+}
+
+#ok{
+  border: ridge rgb(70, 159, 216); 
+  margin: 20px 300px 10px 1px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input[type=submit]{
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 9px 2px;
+  cursor: pointer;
+}
